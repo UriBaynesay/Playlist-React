@@ -4,7 +4,13 @@ export const VideoPreview = ({ video, onSelect }) => {
       className="video-preview-container"
       onClick={() => onSelect(video.id.videoId)}
     >
-      <h3>hello from preview</h3>
+      <div className="video-thumbnail-container">
+        <img src={video.snippet.thumbnails.high.url} alt="" />
+      </div>
+      <section className="video-info">
+        <h2>{video.snippet.title}</h2>
+        <p>{video.snippet.description}</p>
+      </section>
     </article>
   )
 }
