@@ -4,6 +4,6 @@
 
 This app will show a list of videos from youtube (using their API) based on search input
 
-##Tech
+## Tech
 
 React,Youtube API
