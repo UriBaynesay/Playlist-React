@@ -1,5 +1,12 @@
-export const PlaylistApp=()=>{
-    return <div className="playlist-app-container">
-        <h1>hello form Playlist app</h1>
+import { SearchBar } from "../cmp/search-bar-cmp"
+
+export const PlaylistApp = () => {
+  const onSearch = (searchBy) => {
+  }
+
+  return (
+    <div className="playlist-app-container">
+      <SearchBar onSearch={onSearch} />
     </div>
+  )
 }
