@@ -1,2 +1,0 @@
-.main-container{display:grid;grid-template-columns:20px 1fr 20px}.main-container>*{grid-column:2}.main-container>.full{grid-column:1/-1}*{box-sizing:border-box}html{color:rgba(34,34,34,.877);font-family:Cambria,Cochin,Georgia,Times,Times New Roman,serif;line-height:1.6}body{font-size:18px;margin:auto}h1,h2,h3,h4,h5,h6{font-family:Arial,Helvetica,sans-serif;line-height:1;margin:0 0 .6em}footer,main,section{padding:5px}img{width:100%}p{margin:0 0 1em}a{text-decoration:none}a:hover{text-decoration:underline}
-/*# sourceMappingURL=main.74f36fe4.css.map*/
